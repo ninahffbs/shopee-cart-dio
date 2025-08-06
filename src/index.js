@@ -6,8 +6,8 @@ const myWishList = [];
 
 console.log("Welcome to your Shopee Cart!");
 
-const item1 = await createItem("nini", 20.99, 1);
-const item2 = await createItem("nini2", 39.99, 3);
+const item1 = await createItem("Tudo é rio", 20.99, 1);
+const item2 = await createItem("A natureza da mordida", 39.99, 3);
 
 await cartService.addItem(myCart, item1);
 await cartService.addItem(myCart, item2);
